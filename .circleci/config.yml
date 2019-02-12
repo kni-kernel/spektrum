@@ -42,4 +42,4 @@ jobs:
       - run: yarn test:unit
       - run: yarn coverage:unit
       - codecov/upload:
-        file: ./coverage.lcov
+          file: ./coverage.lcov
