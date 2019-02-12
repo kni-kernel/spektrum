@@ -7,6 +7,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
+    "coverage:unit": "nyc vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e"
   },
   "dependencies": {
@@ -23,11 +24,40 @@
     "@vue/eslint-config-prettier": "^4.0.1",
     "@vue/test-utils": "^1.0.0-beta.20",
     "babel-eslint": "^10.0.1",
+    "babel-plugin-istanbul": "^5.1.0",
     "chai": "^4.1.2",
+    "codecov": "^3.1.0",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
+    "istanbul-instrumenter-loader": "^3.0.1",
     "node-sass": "^4.9.0",
+    "nyc": "^13.2.0",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.5.21"
+  },
+  "nyc": {
+    "check-coverage": true,
+    "per-file": true,
+    "lines": 90,
+    "statements": 90,
+    "functions": 90,
+    "branches": 90,
+    "include": [
+      "src/**/*.{js,vue}"
+    ],
+    "exclude": [
+      "src/*.js"
+    ],
+    "reporter": [
+      "lcov",
+      "text",
+      "text-summary"
+    ],
+    "extension": [
+      ".js",
+      ".vue"
+    ],
+    "cache": true,
+    "all": true
   }
 }

@@ -2,6 +2,11 @@
 node_modules
 /dist
 
+# Coverage
+*.lcov
+.nyc_output/
+coverage/
+
 /tests/e2e/reports/
 selenium-debug.log
 
