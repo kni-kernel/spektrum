@@ -28,10 +28,10 @@
       </li>
       <li>
         <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-unit-mocha"
+          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-unit-jest"
           target="_blank"
           rel="noopener"
-          >unit-mocha</a
+          >unit-jest</a
         >
       </li>
       <li>
@@ -107,6 +107,9 @@ export default {
   name: "HelloWorld",
   props: {
     msg: String
+  },
+  data () {
+    return {}
   }
 };
 </script>

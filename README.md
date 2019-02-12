@@ -1,4 +1,4 @@
-# spektrum ![https://circleci.com/gh/kni-kernel/spektrum](https://img.shields.io/circleci/project/github/kni-kernel/spektrum.svg?style=flat)
+# spektrum
 
 ## Project setup
 ```
