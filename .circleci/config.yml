@@ -41,4 +41,4 @@ jobs:
       # run tests and count coverage
       - run: yarn test:unit
       - codecov/upload:
-          file: ./coverage.lcov
+          file: coverage.lcov
