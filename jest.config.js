@@ -1,6 +1,9 @@
 module.exports = {
   moduleFileExtensions: ["js", "jsx", "json", "vue"],
-  reporters: [ "default", "jest-junit" ],
+  reporters: [
+    "default",
+    ["jest-junit", { outputDirectory: "./results/jest"}]
+  ],
   transform: {
     "^.+\\.vue$": "vue-jest",
     ".+\\.(css|styl|less|sass|scss|svg|png|jpg|ttf|woff|woff2)$":
