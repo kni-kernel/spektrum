@@ -27,3 +27,4 @@ yarn-error.log*
 # Coverage output
 coverage.lcov
 coverage/
+junit.xml
