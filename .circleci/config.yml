@@ -40,5 +40,7 @@ jobs:
 
       # run tests and count coverage
       - run: yarn test:unit
+      - store_test_results:
+          path: test-results
       - codecov/upload:
           file: coverage/lcov.info
