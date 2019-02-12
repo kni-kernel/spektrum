@@ -37,6 +37,8 @@ jobs:
 
       # run build!
       - run: yarn build
+
+      # run tests and count coverage
       - run: yarn test:unit
       - run: yarn coverage:unit
       - codecov/upload:
