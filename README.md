@@ -1,4 +1,4 @@
-# spektrum
+# spektrum ![cicd](https://img.shields.io/circleci/project/github/kni-kernel/spektrum.svg?style=flat) ![code coverage](https://img.shields.io/codecov/c/github/kni-kernel/spektrum.svg?style=flat) ![top language](https://img.shields.io/github/languages/top/kni-kernel/spektrum.svg?style=flat)
 
 ## Project setup
 ```
