@@ -8,7 +8,7 @@
 export default {
   name: "about",
   data() {
-    return {}
+    return {};
   }
 };
 </script>

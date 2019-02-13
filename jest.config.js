@@ -1,9 +1,6 @@
 module.exports = {
   moduleFileExtensions: ["js", "jsx", "json", "vue"],
-  reporters: [
-    "default",
-    ["jest-junit", { outputDirectory: "./results/jest"}]
-  ],
+  reporters: ["default", ["jest-junit", { outputDirectory: "./results/jest" }]],
   transform: {
     "^.+\\.vue$": "vue-jest",
     ".+\\.(css|styl|less|sass|scss|svg|png|jpg|ttf|woff|woff2)$":
@@ -19,8 +16,5 @@ module.exports = {
   ],
   testURL: "http://localhost/",
   collectCoverage: true,
-  collectCoverageFrom: [
-    "src/**/*.{js,vue}",
-    "!src/*.js",
-  ]
+  collectCoverageFrom: ["src/**/*.{js,vue}", "!src/*.js"]
 };

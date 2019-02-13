@@ -108,8 +108,8 @@ export default {
   props: {
     msg: String
   },
-  data () {
-    return {}
+  data() {
+    return {};
   }
 };
 </script>
