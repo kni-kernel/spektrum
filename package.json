@@ -33,7 +33,7 @@
     "eslint-plugin-vue": "^5.0.0",
     "jest-html-reporter": "^2.4.4",
     "jest-junit": "^6.2.1",
-    "node-sass": "^4.9.0",
+    "node-sass": "^7.0.0",
     "sass-loader": "^7.1.0",
     "vue-jest": "^3.0.3",
     "vue-template-compiler": "^2.5.21",
